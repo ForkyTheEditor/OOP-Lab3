@@ -9,6 +9,6 @@ public:
 	Tree(int rootValue);
 	Node* root;
 
-	void insert(int value);
+	Node* insert(Node* root, int value);
 
 };
