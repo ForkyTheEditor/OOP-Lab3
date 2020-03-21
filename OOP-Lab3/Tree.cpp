@@ -11,7 +11,9 @@ Tree::Tree(int rootValue) {
 	root = new Node(rootValue);
 }
 
-Node* Tree::insert(Node* root ,int value) {
+
+Node* Tree::insert(Node* root ,int value)
+{
 
 	
 
@@ -37,5 +39,13 @@ Node* Tree::insert(Node* root ,int value) {
 
 		root->leftNode = insert(root->leftNode, value);
 	}
+
+}
+
+Node* Tree::deleteNode(Node* root, int value) {
+
+
+
+
 
 }
