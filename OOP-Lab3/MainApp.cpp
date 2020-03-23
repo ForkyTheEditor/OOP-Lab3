@@ -1,9 +1,13 @@
 #include <iostream>
 #include "Tree.h"
-
+#include "Tests.h"
 
 
 int main() {
+
+	//Main tests
+	runTests();
+
 
 	//Some small tests
 	Tree newTree = Tree(7);
